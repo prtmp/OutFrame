@@ -77,23 +77,28 @@ i {
 .cardorg {
     background-color: #ac0505;
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-radius: 10px;
     transition: all 1s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+
 }
 
 .cardorg img {
-    width: 90%;
-    height: 50%;
+    width: 80%;
+    height: 60%;
     background-color: azure;
     border-radius: 10px;
     margin-top: 10%;
 
 }
+.cardorg p{
+    margin: 0;
+}
+.cardorg h4{
+    margin: 0;
+}
+
 
 #o1 {
     grid-row: 1/3;

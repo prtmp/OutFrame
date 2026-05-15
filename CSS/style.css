@@ -21,7 +21,7 @@ body {
 
 #gradient {
     pointer-events: none;
-    z-index: 9;
+    z-index: 5;
     height: 100px;
     width: 100%;
     position: fixed;
@@ -289,19 +289,24 @@ input {
 #banderas {
     width: 30px;
     height: 30px;
-    z-index: 1;
+    z-index: 7;
     position: relative;
+    transition: all 0.2s ease;
+    opacity: 30%;
 }
 
 #banderas img {
     width: 100%;
-    transition: 0.2s;
     border-radius: 20px;
     animation: giroinf 4s linear infinite;
     transform-origin: center;
     position: absolute;
     top: 0;
     left: 0;
+}
+#banderas:hover {
+    transform: scale(1.1);
+    opacity: 100%;
 }
 
 #ingles {
