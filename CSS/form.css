@@ -1,0 +1,70 @@
+body{
+    background-color: #1a1a1d;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    padding-top: 60px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+input, textarea, button, select{
+    background-color: #ac0505;
+    border: #1a1a1d;
+    color: white;
+    margin-top: 10px;
+
+}
+input{
+    width: 60%;
+    margin-left: 0;
+}
+textarea{
+    width: 60%;
+    height: 100px;
+    
+}
+button{
+    width: 20%;
+    cursor: pointer;
+    padding: 5px;
+    font-family: Bowlby;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s all ease;
+}
+select{
+    padding: 5px;
+}
+
+input::placeholder{
+  color: white;
+}
+textarea::placeholder{
+  color: white;
+}
+button:hover{
+    transform: scale(1.2) rotate(0.5deg);
+}
+h2{
+    margin: 0;
+}
+b{
+    transition: 0.5s all ease;
+}
+
+h2:hover b{
+    color: #ac0505;
+}

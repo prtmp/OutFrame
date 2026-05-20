@@ -1,5 +1,4 @@
 header {
-    background-color: #1a1a1d;
     color: white;
     padding: 10px;
     position: fixed;
@@ -86,7 +85,6 @@ header {
 /* Al pulsar el botón de hamburguesa se añade/quita esta clase */
 /* Al tener esta clase, se muestra el menú en una caja desplegada */
 .menuDesplegado {
-    background-color: #1a1a1d;
 
 
     display: flex;
