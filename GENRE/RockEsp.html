@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Español</title>
+        <link rel="stylesheet" href="../CSS/animations.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/descubrirstyle.css">
+    <link rel="stylesheet" href="../CSS/carrusel_continuo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/genre.css">
+    <script src="JS/menu.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,900;1,6..12,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="../IMG/Discos/Red.png">
+</head>
+<body>
+    <header>
+        <label id="bandera-wrapper">
+            <input type="checkbox" id="cbox1">
+            <div id="banderas">
+                <img id="español" src="../IMG/esp.png" alt="español">
+                <img id="ingles" src="../IMG/eng.webp" alt="ingles">
+            </div>
+        </label>
+        <nav class="menuDesktop">
+            <a class="esp" href="../index.html">Inicio</a> <a class="eng" href="../index.html">Home</a>
+            <a class="esp" href="../descubrir.html">Descubrir</a> <a class="eng" href="../descubrir.html">Discover</a>
+            <a class="esp" href="../events.html">Eventos</a> <a class="eng" href="../events.html">Events</a>
+            <a class="esp" href="../aboutus.html">Sobre Nosotros</a> <a class="eng" href="../aboutus.html">About Us</a>
+        </nav>
+
+        <section id="menu">
+            <button id="btnMenu">
+                <img src="../IMG/Discos/Red.png">
+            </button>
+        </section>
+
+    </header>
+    <main>
+        <section id="videoinicial">
+            <h2 class="esp">El <b>rock español</b> es un género basado en guitarras y ritmos intensos, desarrollado dentro de la escena musical de españa!</h2>
+            <h2 class="eng"><b>Spanish rock</b> is a genre based on guitars and intense rhythms, developed within the Spanish music scene!</h2>
+        </section>
+        <section id="artistas">
+            <div class="artista1">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="../IMG/Artistas/RockESP/PlataDesk.png">
+                    <img src="../IMG/Artistas/RockESP/PlataIp.png" alt="La Plata">
+                </picture>
+                <div>
+                    <a href="https://open.spotify.com/intl-es/artist/3oD0OVwOhvLSTvd2fOFCuS?si=2x3EpYuaQGWYvFmHsxToXw"><h3>La Plata</h3></a>
+                    <p class="esp">Banda valenciana que mezcla Post-Punk y Synth Rock con melodías oscuras y elegantes. Su estilo tiene una fuerte influencia de la escena alternativa ochentera!</p>
+                    <p class="eng">A band from Valencia that blends post-punk and synth-rock with dark and elegant melodies. Their style is heavily influenced by the 80s alternative scene.!</p>
+                </div>
+                <audio src="../AUDIO/Plata.mp3" controls></audio>
+            </div>
+            <div class="artista2">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="../IMG/Artistas/RockEsp/FuturoDesk.png">
+                    <img src="../IMG/Artistas/RockESP/FuturoIp.png" alt="Futuro Terror">
+                </picture>
+                <div>
+                    <a href="https://open.spotify.com/intl-es/artist/0aU1HjlnGo5qO7vwY2gr5M?si=hxhT3genQ3eC-H9tvctTow"><h3>Futuro Terror</h3></a>
+                    <p class="esp">Banda underground de Punk Rock con canciones rápidas y directas. Destacan por su sonido agresivo y sus influencias del Post-Punk clásico!</p>
+                    <p class="eng">Underground punk rock band with fast and direct songs. They stand out for their aggressive sound and classic post-punk influences.</p>
+                </div>
+                <audio src="../AUDIO/Futuro.mp3" controls></audio>
+            </div>
+            <div class="artista1">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="../IMG/Artistas/RockESP/AikoDesk.png">
+                    <img src="../IMG/Artistas/RockESP/AikoIp.png" alt="Aiko el Grupo">
+                </picture>
+                <div>
+                    <a href="https://open.spotify.com/intl-es/artist/0mk9dVJMJF4fanFzeZo6K1?si=hhxtvteRSJqpsck25FGmrg"><h3>Aiko el Grupo</h3></a>
+                    <p class="esp">Referente de la electrónica experimental española, conocido por sus producciones hipnóticas y elegantes. sus obras mezclan house, ambient y sonidos abstractos.</p>
+                    <p class="eng">A leading figure in Spanish experimental electronic music, known for his hypnotic and elegant productions. His works blend house, ambient, and abstract sounds.</p>
+                </div>
+                <audio src="../AUDIO/Aiko.mp3" controls></audio>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="Contacto">
+            <h4 class="esp">Contacto</h4>
+            <h4 class="eng">Contact</h4>
+            <div class="hidden">
+                <p>@outframe!</p>
+                <p>outframe@gmail.com</p>
+                <p>+34 650 38 11 36</p>
+            </div>
+        </div>
+        <div id="Problema">
+            <h4 class="esp">Opinión</h4>
+            <h4 class="eng">Opinion</h4>
+            <div class="hidden">
+                <a href="Feedback.html">
+                    <p class="esp">Enviar Opinión</p>
+                    <p class="eng">Send Feedback</p>
+                </a>
+                <a href="Problem.html">
+                    <p class="esp">Enviar Problemas</p>
+                    <p class="eng">Send Problems</p>
+                </a>
+            </div>
+        </div>
+        <div id="Opinion">
+            <h4 class="esp">Temas Legales</h4>
+            <h4 class="eng">Legal Topics</h4>
+            <div class="hidden">
+                <a href="LEGAL/AvisoLegal.html">
+                    <p class="esp">Aviso Legal</p>
+                    <p class="eng">Legal Notice</p>
+                </a>
+                <a href="LEGAL/Privacida.html">
+                    <p class="esp">Política de Privacidad</p>
+                    <p class="eng">Privacy Politics</p>
+                </a>
+                <a href="LEGAL/Cookies.html">
+                    <p class="esp">Política de cookies</p>
+                    <p class="eng">Cookies Policy</p>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

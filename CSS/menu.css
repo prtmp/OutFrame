@@ -1,4 +1,5 @@
 header {
+    background-color: #1a1a1d;
     color: white;
     padding: 10px;
     position: fixed;
@@ -41,6 +42,8 @@ header {
 
 /* EN DISEÑO MÓVIL NO SE MUESTRA EL MENÚ PARA ESCRITORIO */
 .menuDesktop {
+        background-color: #1a1a1d;
+
     display: none;
 
     font-size: 1.2rem;
