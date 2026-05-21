@@ -9,8 +9,11 @@ body{
 h2{
     width: 80%;
     text-align: center;
-    color: #1a1a1d;
+    color: white;
     transition: all 0.5s ease;
+    position: absolute;
+    top: 250px;
+    left: 50px;
 }
 b{
     transition: all 0.4s ease; 
@@ -106,7 +109,9 @@ audio::-webkit-media-controls-play-button {
 audio::-webkit-media-controls-panel {
   color: white;
 }
-
+video{
+    opacity: 25%;
+}
 
 @media screen and (min-width: 1232px) {
     .artista1, .artista2{
@@ -127,4 +132,11 @@ audio::-webkit-media-controls-panel {
     .artista1 audio, .artista2 audio{
         grid-row: 2/3;
     }
+    h2{
+    left: 190px;
+    font-size: 2rem;
+    }
+    h2:hover b{
+    font-size: 2.2rem;
+}
 }
