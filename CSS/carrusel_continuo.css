@@ -6,7 +6,10 @@
     margin-top: 5%;
     position: relative;
     margin-bottom: 10px;
-
+    transform: translateY(40px);
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 40% exit 90%;
 }
 
 #fondocarru2 {
@@ -14,7 +17,10 @@
     margin-top: 5%;
     position: relative;
     margin-bottom: 10px;
-
+    transform: translateY(40px);
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 40% exit 90%;
 }
 
 #carrusel {
