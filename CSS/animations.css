@@ -68,3 +68,22 @@
     transform: translateY(-40px);
   }
 }
+@keyframes desaparecer{
+  0%{
+    opacity:1;
+    visibility:visible;
+    z-index: 9999999;
+  }
+
+  90%{
+    opacity:1;
+    z-index: 9999999;
+
+  }
+
+  100%{
+    opacity:0;
+    visibility:hidden;
+    z-index: 0;
+  }
+}

@@ -11,7 +11,15 @@ body {
     overflow-x: hidden;
     display: block;
     grid-template-columns: 1fr 1fr 1fr;
-
+}
+video{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    position: fixed;
+    opacity: 100%;
+    z-index:9999;
+    animation: desaparecer 6.5s forwards;
 }
 
 @font-face {

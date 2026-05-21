@@ -13,10 +13,13 @@ header{
 .menuDesktop {
     background-color: transparent;
 }
+b{
+    font-family: bowlby;
+    color: #ac0505;
+}
 h1{
     text-align: center;
-    font-family: bowlby;
-    color: #CA0101;
+
     transition: 0.5s all ease;
     cursor: default;
     font-size: 3rem;
@@ -24,6 +27,7 @@ h1{
 h1:hover{
     transform: scale(1.2) rotate(7deg);
 }
+
 h2{
     font-family: bowlby;
     color: white;
@@ -41,7 +45,7 @@ h2:hover{
 #eventos section{
     display: grid;
     grid-row: 1fr 0.5fr;
-            transform: translateY(40px);
+    transform: translateY(40px);
     animation: reveal linear both;
     animation-timeline: view();
     animation-range: entry 50% exit 60%;
@@ -51,15 +55,17 @@ h2:hover{
     background-color: dimgray;
     height: 200px;
     width: 100%;
+    transition: 1s all ease;
 }
 #eventos h3, #eventos p{
     margin: 0;
     margin-bottom: 5%;
     text-align: center;
-
+    color: white;
 }
 #eventos h3{
     margin-top: 5%;
+    transition: 0.5s all ease;
 }
 #eventos iframe{
     height: 75px;
@@ -69,11 +75,31 @@ h2:hover{
 #eventos iframe:hover{
     opacity: 100%;
 }
+#eventos h3:hover{
+    transform: scale(1.1) rotate(7deg);
+    color: #ac0505;
+    cursor: pointer;
+}
+#c1{
+    background-image: url(../IMG/Eventos/LowFestival.png);
+    background-size: cover;
+}
+#c2{
+    background-image: url(../IMG/Eventos/FanFutura.png);
+    background-size: cover;
+}
+#c3{
+    background-image: url(../IMG/Eventos/Sonorama.png);
+    background-size: cover;
+}
 @media screen and (min-width: 1232px) {
     #eventos h3, #eventos p{
         margin-bottom: 1%;  
     }
     #eventos h3{
         margin-top: 1%;
+    }
+    .fndofoto:hover{
+        height: 350px;
     }
 }
