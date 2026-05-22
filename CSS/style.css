@@ -387,7 +387,7 @@ input {
         top: 173%;
     }
 
-    #eventstitle {
+    #eventstitle2 {
         color: black;
         font-family: Bowlby;
         margin: 0;
@@ -406,7 +406,7 @@ input {
     }
 
     #eventostitle:hover,
-    #eventstitle:hover {
+    #eventstitle2:hover {
         scale: 1.1;
         rotate: 7deg;
         transition: 0.7s;
