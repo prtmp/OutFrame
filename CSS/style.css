@@ -112,7 +112,7 @@ a {
     transition: all 0.5s ease;
 }
 
-#eventstitle {
+#eventstitle2 {
     color: black;
     font-family: Bowlby;
     margin: 0;
@@ -120,7 +120,8 @@ a {
     z-index: 1;
     font-size: 3rem;
     position: absolute;
-    top: 162%;
+    top: 160%;
+    left: 30%;
     transition: all 0.5s ease;
 }
 
@@ -140,7 +141,7 @@ a {
 }
 
 #eventostitle:hover,
-#eventstitle:hover {
+#eventstitle2:hover {
     scale: 1.1;
     rotate: 7deg;
 }
@@ -478,6 +479,10 @@ input {
     #eventostitle {
         left: 42%;
         top: 235%;
+    }
+    #eventostitle2{
+        top: 235%;
+        right: 43%;
     }
 
     #destacodisco {
