@@ -480,7 +480,7 @@ input {
         left: 42%;
         top: 235%;
     }
-    #eventostitle2{
+    #eventstitle2{
         top: 235%;
         right: 43%;
     }
@@ -492,7 +492,7 @@ input {
     }
 
     #eventostitle:hover,
-    #eventostitle:hover {
+    #eventstitle2:hover {
         scale: 1.1;
         rotate: 7deg;
         transition: 0.7s;
